@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="Formulario de inicio"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text_view"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="154dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grado académico"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Spinner
+            android:id="@+id/academic_grade_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/academic_grade_options"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Nivel de dificultad"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+
+        <Spinner
+            android:id="@+id/difficulty_level_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:entries="@array/difficulty_level_options" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Curso de interés"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/interest_course_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:entries="@array/interest_course_options" />
+
+        <Button
+            android:id="@+id/onboarding_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6200ea"
+            android:text="Enviar"
+            android:textColor="#ffffff"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+</RelativeLayout>

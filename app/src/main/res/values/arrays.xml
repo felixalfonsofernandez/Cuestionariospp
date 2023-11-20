@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="academic_grade_options">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universitario</item>
+    </string-array>
+
+    <string-array name="difficulty_level_options">
+        <item>Fácil</item>
+        <item>Intermedio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="interest_course_options">
+        <item>Geometría</item>
+        <item>Álgebra</item>
+        <item>Aritmética</item>
+    </string-array>
+</resources>

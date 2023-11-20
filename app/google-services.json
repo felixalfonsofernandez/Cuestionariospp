@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287290252292",
+    "project_id": "disco-centro-339bd",
+    "storage_bucket": "disco-centro-339bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287290252292:android:d4dd37b7d74a4ca21aa951",
+        "android_client_info": {
+          "package_name": "com.appCuestionarioMobileTeamSM.aplicacincuestionarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287290252292-jnbj8flbpg6nh7iicb01o3u45jbt9pgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4NaCj4UCg7SYeJWJzGre9baliTRbM3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287290252292-jnbj8flbpg6nh7iicb01o3u45jbt9pgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
